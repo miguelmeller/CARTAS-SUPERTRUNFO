@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: white;
+  text-align: center; /* centraliza os textos */
+  padding: 30px;
+}
+
+.nav{
+    justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 20px;
+    background-color: transparent; 
+}
+
+img{
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    
+
+}
+h2{
+    justify-content: flex-start;
+    color: rgb(253, 253, 0);
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+h3{
+    text-align: left;
+    color: #ffffff;
+}
+
+.card{
+    width: 250px;
+    height: 410px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVb46ByJbsSTttenZQqWftUqx7s7PEjTlmh-gCRVgOpRB8lx4kPuWvNwF_&s=10);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid 
+    
+}
+
+.kobe{
+    background-color: rgb(30, 3, 111);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    border: black;
+    transform: scale(1.1);
+}
+
+
+
+li{
+    font-size: 11px;
+    list-style-position: inside;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    border: solid black;
+    list-style: none;
+    background-color: gainsboro;
+}
+
+
+li:hover{
+    transform: translateX(2px);
+    background: linear-gradient(gray, white);
+}
+
+.kobe{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out; /*tipo de efeito | tempo | transição */
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out; /*tipo de efeito | tempo | transição */
+    transition: transform 1s ease; /*alternativa para especificar a modificação / transformação */
+}
+
+header {
+  background-color: rgb(5, 5, 94);
+  color: white;
+  text-align: right; /* centraliza os textos */
+  padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out; /*tipo de efeito | tempo | transição */
+    background-color: rgb(42, 8, 167);
+    border-radius: 20px;
+}
+
+img{
+    text-align: left;
+}
+
+.card2{
+    width: 250px;
+    height: 410px;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVYQYoYtCxXOeLNDMc5FsAhp7v1HF8G1aKz6LTjr4uDpHuNb9cA0uGaCMk&s=10);
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid;
+    
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out; /*tipo de efeito | tempo | transição */
+}
+
+
+.lebron{
+    background-color: gainsboro;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.card3{
+    width: 250px;
+    height: 410px;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZaT5IASY9PEfJyyTeMyRTE_qOxTHdcYyEh5N2D2OSMejZPuy6R29yQHs&s=10);
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid;
+}
+
+.jordan{
+    background-color: rgb(76, 76, 76);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.card3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out; /*tipo de efeito | tempo | transição */
+}
+
+    body {
+      background-image: url('https://clubepaineiras.org.br/wp-content/uploads/2022/07/iStock-539259723-e1658850497351.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      margin: 0;
+      height: 100vh;
+    }
